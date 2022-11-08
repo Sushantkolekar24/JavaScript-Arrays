@@ -1,0 +1,21 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width"> <title>JS Array</title> </head> <body> 
+    
+    <h2>JavaScript Array</h2>
+     <p id="demo"></p> 
+     
+
+<script> 
+
+     const cars = [ "Bmw", "Audi", "Scoda", "Benz"  ];
+
+     let tags = "<ul>" ;
+        tags += "</ul>";
+
+      function myFunc(space) { tags += "<li>" + space + "</li>" }
+      cars.forEach( myFunc); 
+      document.getElementById("demo").innerHTML = tags; 
+        
+
+    </script>
+     </body> </html>
+    
